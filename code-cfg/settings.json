@@ -1,6 +1,4 @@
 {
-// initial setting (before Grafikart tuto)
-    "workbench.colorTheme": "Kali Terminal Dark",
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
@@ -11,7 +9,6 @@
     "editor.wordWrap": "on",
     "git.autofetch": true,
     "liveServer.settings.donotVerifyTags": true,
-    "editor.multiCursorModifier": "ctrlCmd",
 
 // Grafikart setting
     "editor.minimap.enabled": false,
@@ -41,12 +38,14 @@
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "[Kali Terminal Dark]" :{
-            "editor.selectionBackground": "#ffffff",
-            "editor.selectionHighlightBackground": "#ffffff96",
-        }
+            "editor.selectionBackground": "#ffffff33",
+            "editor.selectionHighlightBackground": "#ffffff33",
     },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Kali Terminal Dark",
 }
