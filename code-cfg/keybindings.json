@@ -63,5 +63,9 @@
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
+    {
+        "key": "ctrl+alt+p",
+        "command": "git.push"
+    },
 
 ]
