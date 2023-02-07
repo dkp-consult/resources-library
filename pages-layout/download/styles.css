@@ -20,7 +20,7 @@ footer a
 }
 body
 {
-	background-color: ;
+	background-color: none ;
 }
 table.blueTable {
     border: 0px solid #1C6EA4;
@@ -41,7 +41,7 @@ table.blueTable {
     font-size: 13px;
   }
   table.blueTable tr:nth-child(even) {
-    background: ;
+    background: none ;
   }
   table.blueTable thead {
     background: yellow;
