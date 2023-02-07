@@ -1,0 +1,51 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "telemetry.telemetryLevel": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+// Grafikart setting
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave" : false,
+    "editor.formatOnPaste": false,
+    "editor.renderWhitespace":"boundary",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+
+    // Partie gestion fichier
+    "files.autoSave": "afterDelay",
+    "files.defaultLanguage": "markdown",
+
+    // Partie explorer
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Partie workbench
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.enablePreview": false,
+    "emmet.triggerExpansionOnTab": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+            "editor.selectionBackground": "#ffffff33",
+            "editor.selectionHighlightBackground": "#ffffff33",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Kali Terminal Dark",
+}
