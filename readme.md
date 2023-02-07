@@ -1,6 +1,6 @@
 # Welcome to my ressources library page
 
-This is a repository for sharing HTML, CSS, JavaScript and configuration files, as well as some code snippets.
+This is a repository for sharing HTML, CSS, JavaScript and configuration files, as well as some code snippets. Actually, I just put personnal code snippets. In futur, maybe I'll share snippets from another devs.
 
 ## Contents
 - components: A folder with all components subfolders (button, header, navbar, hamburger menu, etc).
