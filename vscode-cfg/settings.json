@@ -42,10 +42,31 @@
             "editor.selectionHighlightBackground": "#ffffff33",
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Kali Terminal Dark",
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "è": true,
+        "é": true,
+        "ê": true
+    },
+    "emmet.preferences": {
+    
+    },
+    "emmet.syntaxProfiles": {
+
+    },
+    "emmet.variables": {
+        "lang": "fr",
+        "charset": "UTF-8"
+    },
 }
