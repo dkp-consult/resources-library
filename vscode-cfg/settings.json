@@ -1,6 +1,5 @@
 {
     "diffEditor.renderSideBySide": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "telemetry.telemetryLevel": "off",
@@ -14,7 +13,7 @@
     "editor.minimap.enabled": false,
     "editor.formatOnSave" : false,
     "editor.formatOnPaste": false,
-    "editor.renderWhitespace":"boundary",
+    "editor.renderWhitespace":"trailing",
     "editor.linkedEditing": true,
     "editor.occurrencesHighlight": false,
     "editor.suggest.insertMode": "replace",
@@ -42,13 +41,12 @@
             "editor.selectionHighlightBackground": "#ffffff33",
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.accessibilitySupport": "off",
-    "workbench.colorTheme": "GitHub Dark Default",
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -64,9 +62,12 @@
     },
     "emmet.syntaxProfiles": {
 
+
     },
     "emmet.variables": {
         "lang": "fr",
         "charset": "UTF-8"
     },
+    "workbench.colorTheme": "GitHub Dark Default",
+    
 }
