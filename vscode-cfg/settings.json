@@ -29,6 +29,8 @@
     "explorer.confirmDelete": false,
 
     // Partie workbench
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 6,
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.editor.enablePreview": false,
@@ -41,7 +43,7 @@
             "editor.selectionHighlightBackground": "#ffffff33",
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -68,6 +70,9 @@
         "lang": "fr",
         "charset": "UTF-8"
     },
-    "workbench.colorTheme": "GitHub Dark Default",
-    
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.largeFileOptimizations": false
 }

@@ -87,5 +87,35 @@
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+[Period]",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 
 ]
